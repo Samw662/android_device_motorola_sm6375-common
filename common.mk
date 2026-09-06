@@ -386,5 +386,5 @@ PRODUCT_COPY_FILES += \
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/sm6375-common/sm6375-common-vendor.mk)
 
-#ViPER4Android FX
-$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+#ViPER4Android FX (disabled - not available in source tree)
+#$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
