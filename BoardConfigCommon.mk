@@ -27,6 +27,7 @@ TARGET_NO_BOOTLOADER := true
 BOARD_BOOT_HEADER_VERSION := 3
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_CMDLINE := \
+    androidboot.bootdevice=4804000.ufshc \
     androidboot.console=ttyMSM0 \
     androidboot.hardware=qcom \
     androidboot.memcg=1 \
